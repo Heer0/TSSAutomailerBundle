@@ -10,7 +10,7 @@
     </parameters>
 
     <services>
-        <service id="swiftmailer.spool.automailer" class="%swiftmailer.spool.automailer.class%" public="false">
+        <service id="swiftmailer.mailer.default.spool.automailer" class="%swiftmailer.spool.automailer.class%" public="false">
             <argument type="service" id="doctrine.orm.entity_manager" />
         </service>
 
